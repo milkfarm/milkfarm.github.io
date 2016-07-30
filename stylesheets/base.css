@@ -1,0 +1,93 @@
+/* MISC
+-----------------------------------------------------------------------------*/
+.clear                { clear:both; height:0px; overflow:hidden; }
+.clear-left           { clear:left; height:0px; overflow:hidden; }
+.clear-right          { clear:right; height:0px; overflow:hidden; }
+.hide, .hidden        { display:none; }
+.item                 { margin-bottom:2em; }
+
+
+/* TYPOGRAPHY
+-----------------------------------------------------------------------------*/
+body									{ background:white; color:#000; }
+body, table           { font-family:verdana; font-size:12px; line-height:160%; }
+h1,h2,h3,h4,h5,h6,p,pre,table,blockquote
+											{ margin:0 0 1em 0; padding:0; }
+h1,h2,h3,h4,h5,h6			{ line-height:1.1em; margin-bottom:.5em; }
+
+small                 { font-size:11px; line-height:11px; }
+sup                   { font-size:10px; line-height:10px; vertical-align:30%;  }
+sub                   { font-size:10px; line-height:10px; vertical-align:30%;  }
+del										{ text-decoration: line-through; }
+ins										{ text-decoration: none; }
+
+p+h2									{ margin-top:1em; }
+p+h3									{ margin-top:1em; }
+p+h4									{ margin-top:1em; }
+
+
+/* LISTS
+-----------------------------------------------------------------------------*/
+ul                    { margin:0; padding:0; padding-left:2em; margin-bottom:1em; }
+ul li                 { margin:0; padding:0; }
+ol                    { margin:0; padding:0; padding-left:2em; margin-bottom:1em; }
+ol li                 { margin:0; padding:0; }
+ol ol									{ margin-bottom:0; list-style:lower-roman; }
+ol ol	li							{ list-style-type:lower-roman; }
+
+
+/* IMAGES
+-----------------------------------------------------------------------------*/
+a img                 { border:none; }
+
+
+/* LINKS
+-----------------------------------------------------------------------------*/
+
+
+/* TABLES
+-----------------------------------------------------------------------------*/
+
+
+/* FORMS
+-----------------------------------------------------------------------------*/
+
+form                  { margin:0; padding:0; margin-bottom:1em;  }
+fieldset              { margin:0; padding:0; margin-bottom:2.5em; border:0; }
+input,textarea,select	{ border:1px solid #aaa; font-family:verdana, sans-serif; font-size:1em; }
+
+input.full,
+textarea.full,
+select.full           { display:block; width:99%; position:static;}
+.item label           { display:block; }
+.checkbox label       { display:inline; }
+
+/* OTHER
+-----------------------------------------------------------------------------*/
+#wrap { margin:0 auto; width:760px; }
+#header { margin-top:100px; }
+#content { text-align:center; }
+#footer {
+  margin-top:20px;
+  text-align:center;
+  font-size:0.92em;
+  padding-right:60px; /* Center footer under unbalanced logo */
+}
+
+#logo {
+  margin:auto;
+  background:url(../images/logo.png) no-repeat;
+  width:115px;
+  height:48px;
+  text-indent:-9999px;
+  overflow:hidden;
+}
+#logo:hover {
+  background-image:url(../images/logo-hover.png);
+}
+#logo a {
+  display:block;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
